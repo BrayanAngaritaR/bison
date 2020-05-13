@@ -15,7 +15,7 @@ NUM 	[2-9][0-9][0-9][0-9][0-9][0-9][0-9]
 
 %%
 
-[ \t]	; // ignore all whitespace
+[ \t]	; 
 \n		{return T_NEWLINE;}
 {PAIS}	    {return T_PAIS;}
 {I}/{NUM}	{return T_I;}
